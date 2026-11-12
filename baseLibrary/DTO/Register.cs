@@ -2,7 +2,7 @@
 
 namespace baseLibrary.DTO
 {
-    public class Regsiter : AccountBase
+    public class Register : AccountBase
     {
         [MaxLength(100)]
         [MinLength(5)]

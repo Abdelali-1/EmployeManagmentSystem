@@ -11,5 +11,9 @@ namespace ServerLibrary.Data
         public DbSet<Town> Towns { get; set; }
         public DbSet<Branch> Branches { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+        public DbSet<UserRole> userRoles { get; set; }
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<RefrishTokenInfo> RefrishTokenInfos { get; set; }
     }
 }
